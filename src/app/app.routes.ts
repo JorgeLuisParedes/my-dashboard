@@ -37,7 +37,7 @@ export const routes: Routes = [
 			},
 			{
 				path: 'view-transition',
-				title: 'Defer Views',
+				title: 'View Transition',
 				loadComponent: () => import('./dashboard/pages/view-transition/view-transition.component'),
 			},
 			{
